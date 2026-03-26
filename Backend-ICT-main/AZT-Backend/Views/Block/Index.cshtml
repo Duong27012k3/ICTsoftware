@@ -1,0 +1,243 @@
+﻿@model IEnumerable<Entity.Block>
+@{
+    ViewData["Title"] = "Blocks — " + ViewBag.OwnerName;
+    var ownerType = ViewBag.OwnerType as string;
+    var ownerId = (int)ViewBag.OwnerId;
+    var backUrl = ownerType == "service" ? "/Service" : "/Project";
+    var blocks = Model.OrderBy(x => x.BlockOrder).ToList();
+}
+
+<div class="page-header d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center gap-3">
+        <a href="@backUrl" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+        <div>
+            <h4 class="mb-0"><i class="bi bi-layout-text-window text-secondary me-2"></i>Content Blocks</h4>
+            <p class="mb-0 text-muted small">
+                <span class="badge @(ownerType == "service" ? "bg-success-subtle text-success" : "bg-warning-subtle text-warning")">@ownerType</span>
+                @ViewBag.OwnerName
+            </p>
+        </div>
+    </div>
+    <a href="/Block/Create?ownerType=@ownerType&ownerId=@ownerId" class="btn btn-secondary">
+        <i class="bi bi-plus-lg me-1"></i>Add Block
+    </a>
+</div>
+
+@if (!blocks.Any())
+{
+    <div class="card">
+        <div class="empty-state py-5">
+            <i class="bi bi-layout-text-window"></i>
+            No blocks yet. <a href="/Block/Create?ownerType=@ownerType&ownerId=@ownerId">Add the first block →</a>
+        </div>
+    </div>
+}
+else
+{
+    <!-- Filters -->
+    <div class="card mb-3">
+        <div class="card-body py-2 px-3">
+            <div class="d-flex gap-2 align-items-center flex-wrap">
+                <div class="input-group" style="max-width:280px">
+                    <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+                    <input type="text" id="searchInput" class="form-control border-start-0"
+                           placeholder="Search title..." oninput="applyFilters()" />
+                </div>
+                <select id="typeFilter" class="form-select" style="width:140px" onchange="applyFilters()">
+                    <option value="">All Types</option>
+                    @foreach (var bt in blocks.Select(b => b.BlockType).Distinct().OrderBy(t => t))
+                    {
+                        <option value="@bt">@bt</option>
+                    }
+                </select>
+                <select id="pageSizeSelect" class="form-select" style="width:120px" onchange="applyFilters()">
+                    <option value="10">10 / page</option>
+                    <option value="15">15 / page</option>
+                    <option value="20">20 / page</option>
+                </select>
+                <span id="resultCount" class="text-muted small ms-auto"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-body p-0" id="blockList">
+            @foreach (var b in blocks)
+            {
+                var enTrans = b.BlockTrans?.FirstOrDefault(t => t.LangCode == "en")
+                ?? b.BlockTrans?.FirstOrDefault();
+                var title = enTrans?.Title ?? "— no title —";
+                var preview = !string.IsNullOrEmpty(enTrans?.Content)
+                ? (enTrans.Content.Length > 80 ? enTrans.Content[..80] + "…" : enTrans.Content)
+                : "";
+
+                <div class="block-row d-flex align-items-center gap-3 px-3 py-2 border-bottom"
+                     data-title="@title.ToLower()"
+                     data-type="@b.BlockType.ToLower()">
+
+                    <!-- Order -->
+                    <div style="min-width:32px" class="text-center">
+                        <span class="badge bg-secondary rounded-circle"
+                              style="width:28px;height:28px;display:flex;align-items:center;justify-content:center;font-size:.75rem">
+                            @b.BlockOrder
+                        </span>
+                    </div>
+
+                    <!-- Type -->
+                    <div style="min-width:90px">
+                        <span class="badge bg-info-subtle text-info px-2 py-1 rounded-pill">@b.BlockType</span>
+                    </div>
+
+                    <!-- Preview -->
+                    <div class="flex-grow-1 overflow-hidden">
+                        <p class="fw-semibold mb-0 text-truncate">@title</p>
+                        @if (!string.IsNullOrEmpty(preview))
+                        {
+                            <p class="text-muted small mb-0 text-truncate">@preview</p>
+                        }
+                        @if (!string.IsNullOrEmpty(b.ImageUrl))
+                        {
+                            <img src="@b.ImageUrl" style="height:28px;border-radius:4px;margin-top:2px" />
+                        }
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="d-flex gap-1 align-items-center flex-shrink-0">
+                        <form asp-action="MoveUp" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@b.BlockId" />
+                            <input type="hidden" name="ownerType" value="@ownerType" />
+                            <input type="hidden" name="ownerId" value="@ownerId" />
+                            <button type="submit" class="btn btn-icon btn-outline-secondary btn-sm" title="Move Up">
+                                <i class="bi bi-chevron-up"></i>
+                            </button>
+                        </form>
+                        <form asp-action="MoveDown" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@b.BlockId" />
+                            <input type="hidden" name="ownerType" value="@ownerType" />
+                            <input type="hidden" name="ownerId" value="@ownerId" />
+                            <button type="submit" class="btn btn-icon btn-outline-secondary btn-sm" title="Move Down">
+                                <i class="bi bi-chevron-down"></i>
+                            </button>
+                        </form>
+                        <a href="/Block/Edit/@b.BlockId" class="btn btn-icon btn-outline-primary btn-sm">
+                            <i class="bi bi-pencil"></i>
+                        </a>
+                        <form asp-action="Delete" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@b.BlockId" />
+                            <input type="hidden" name="ownerType" value="@ownerType" />
+                            <input type="hidden" name="ownerId" value="@ownerId" />
+                            <button type="submit" class="btn btn-icon btn-outline-danger btn-sm"
+                                    onclick="return confirm('Delete this block?')">
+                                <i class="bi bi-trash"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="d-flex justify-content-between align-items-center px-3 py-2 border-top">
+            <span id="pageInfo" class="text-muted small"></span>
+            <ul class="pagination pagination-sm mb-0" id="pagination"></ul>
+        </div>
+    </div>
+}
+
+<style>
+    .block-row:last-child {
+        border-bottom: none !important;
+    }
+</style>
+
+<script>
+    let currentPage = 1;
+
+    // Lấy tất cả rows khớp filter
+    function getFiltered() {
+        const q    = document.getElementById('searchInput').value.trim().toLowerCase();
+        const type = document.getElementById('typeFilter').value.toLowerCase();
+        return [...document.querySelectorAll('#blockList .block-row')].filter(row => {
+            const matchQ    = !q    || row.dataset.title.includes(q);
+            const matchType = !type || row.dataset.type === type;
+            return matchQ && matchType;
+        });
+    }
+
+    function applyFilters() {
+        currentPage = 1;
+        render();
+    }
+
+    function render() {
+        const pageSize   = parseInt(document.getElementById('pageSizeSelect').value);
+        const allRows    = [...document.querySelectorAll('#blockList .block-row')];
+        const filtered   = getFiltered();
+        const total      = filtered.length;
+        const totalPages = Math.max(1, Math.ceil(total / pageSize));
+
+        currentPage = Math.min(currentPage, totalPages);
+        const start = (currentPage - 1) * pageSize;
+        const end   = start + pageSize;
+
+        // Ẩn tất cả, rồi chỉ hiện trang hiện tại của filtered
+        @* allRows.forEach(r => r.style.display = 'none');
+        filtered.forEach((r, i) => {
+            r.style.display = (i >= start && i < end) ? '' : 'none';
+        }); *@
+            // Ẩn tất cả bằng cách thêm class d-none và bỏ d-flex
+    allRows.forEach(r => {
+        r.classList.remove('d-flex');
+        r.classList.add('d-none');
+    });
+
+    // Chỉ hiển thị lại những phần tử nằm trong trang hiện tại
+    filtered.forEach((r, i) => {
+        if (i >= start && i < end) {
+            r.classList.remove('d-none');
+            r.classList.add('d-flex');
+        }
+    });
+
+        // Counter
+        document.getElementById('resultCount').textContent =
+            `${total} block${total !== 1 ? 's' : ''}`;
+
+        // Page info
+        document.getElementById('pageInfo').textContent = total
+            ? `Showing ${start + 1}–${Math.min(end, total)} of ${total}`
+            : 'No results';
+
+        // Pagination
+        const ul = document.getElementById('pagination');
+        ul.innerHTML = '';
+        if (totalPages <= 1) return;
+
+        const btn = (label, page, disabled, active) => {
+            const li = document.createElement('li');
+            li.className = `page-item${disabled ? ' disabled' : ''}${active ? ' active' : ''}`;
+            li.innerHTML = `<a class="page-link" href="#">${label}</a>`;
+            if (!disabled && !active) {
+                li.querySelector('a').addEventListener('click', e => {
+                    e.preventDefault();
+                    currentPage = page;
+                    render();
+                });
+            }
+            ul.appendChild(li);
+        };
+
+        btn('«', 1,              currentPage === 1,          false);
+        btn('‹', currentPage-1,  currentPage === 1,          false);
+        const from = Math.max(1, currentPage - 2);
+        const to   = Math.min(totalPages, from + 4);
+        for (let i = from; i <= to; i++) btn(i, i, false, i === currentPage);
+        btn('›', currentPage+1,  currentPage === totalPages, false);
+        btn('»', totalPages,     currentPage === totalPages, false);
+    }
+
+    // Khởi chạy
+    render();
+</script>

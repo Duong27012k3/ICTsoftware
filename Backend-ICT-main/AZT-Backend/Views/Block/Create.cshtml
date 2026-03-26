@@ -1,0 +1,114 @@
+﻿@model Entity.Block
+@{
+    ViewData["Title"] = "Add Block";
+    var ownerType = ViewBag.OwnerType as string;
+    var ownerId = (int)ViewBag.OwnerId;
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/Block?ownerType=@ownerType&ownerId=@ownerId" class="btn btn-outline-secondary btn-sm">
+        <i class="bi bi-arrow-left"></i>
+    </a>
+    <div>
+        <h4 class="mb-0"><i class="bi bi-plus-circle text-secondary me-2"></i>Add New Block</h4>
+        <p class="mb-0 text-muted small">For: <strong>@ViewBag.OwnerName</strong></p>
+    </div>
+</div>
+
+<div class="card" style="max-width:600px">
+    <div class="card-header bg-white fw-semibold">Block Information</div>
+    <div class="card-body p-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="OwnerType" />
+            <input type="hidden" asp-for="OwnerId" />
+
+            <!-- Block Type -->
+            <div class="mb-3">
+                <label class="form-label">Block Type <span class="text-danger">*</span></label>
+                <select asp-for="BlockType" asp-items="ViewBag.BlockTypeList" id="blockTypeSelect"
+                        class="form-select" onchange="onTypeChange(this.value)">
+                    <option value="">— Select type —</option>
+                </select>
+                <!-- Hint mô tả loại block -->
+                <div id="typeHint" class="form-text mt-1"></div>
+            </div>
+
+            <!-- Display Order -->
+            <div class="mb-3">
+                <label asp-for="BlockOrder" class="form-label">Display Order</label>
+                <input asp-for="BlockOrder" type="number" class="form-control" min="1" value="1" />
+                <div class="form-text">Lower numbers are displayed first</div>
+            </div>
+
+            <!-- IMAGE — hiện với: banner, image, gallery -->
+            <div class="mb-3 field-image d-none">
+                <label class="form-label field-image-label">Image</label>
+                <input type="file" name="imageFile" class="form-control" accept="image/*"
+                       onchange="previewImg(this,'imgPrev')" />
+                <div class="form-text">JPG, PNG, WEBP, GIF — max 5MB</div>
+                <img id="imgPrev" src="#" class="mt-2 rounded d-none" style="max-height:120px;max-width:100%" />
+            </div>
+
+            <!-- VIDEO URL — chỉ hiện với: video -->
+            <div class="mb-3 field-video d-none">
+                <label class="form-label">Video URL <span class="text-danger">*</span></label>
+                <input asp-for="ImageUrl" type="url" class="form-control" id="videoUrlInput"
+                       placeholder="https://youtube.com/watch?v=..." />
+                <div class="form-text">YouTube or Vimeo link</div>
+            </div>
+
+            <div class="d-flex gap-2 mt-4">
+                <button type="submit" class="btn btn-secondary px-4">
+                    <i class="bi bi-check-lg me-1"></i>Save
+                </button>
+                <a href="/Block?ownerType=@ownerType&ownerId=@ownerId" class="btn btn-outline-secondary">
+                    Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    // Cấu hình từng loại block
+    const typeConfig = {
+        banner:  { image: true,  video: false, imageLabel: "Banner Image",  hint: "🖼️ Large background image displayed at the top of the page — recommended landscape ratio (16:9)" },
+        text:    { image: false, video: false, imageLabel: "",               hint: "📝 Plain text block — add content in the Translations section below" },
+        image:   { image: true,  video: false, imageLabel: "Image",          hint: "🖼️ Single image with optional caption — add caption in Translations" },
+        video:   { image: false, video: true,  imageLabel: "",               hint: "▶️ Embed a YouTube or Vimeo video — paste the link below" },
+        gallery: { image: true,  video: false, imageLabel: "Gallery Image",  hint: "🖼️ One image in a gallery set — add multiple gallery blocks to build a full gallery" },
+        cta:     { image: false, video: false, imageLabel: "",               hint: "🔘 Call-to-action button — add text in Translations (Title = heading, Content = button label)" },
+    };
+
+    function onTypeChange(val) {
+        const cfg = typeConfig[val] || { image: false, video: false };
+
+        // Image field
+        document.querySelectorAll('.field-image').forEach(el => el.classList.toggle('d-none', !cfg.image));
+        if (cfg.imageLabel) {
+            document.querySelector('.field-image-label').textContent = cfg.imageLabel;
+        }
+
+        // Video URL field — dùng lại ImageUrl để lưu link video
+        document.querySelectorAll('.field-video').forEach(el => el.classList.toggle('d-none', !cfg.video));
+
+        // Hint
+        const hint = document.getElementById('typeHint');
+        hint.textContent = cfg.hint || '';
+        hint.className = 'form-text mt-1' + (cfg.hint ? ' text-primary fw-semibold' : '');
+    }
+
+    function previewImg(input, previewId) {
+        const img = document.getElementById(previewId);
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = e => { img.src = e.target.result; img.classList.remove('d-none'); };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+
+    // Chạy ngay nếu đang edit với giá trị sẵn
+    const sel = document.getElementById('blockTypeSelect');
+    if (sel && sel.value) onTypeChange(sel.value);
+</script>

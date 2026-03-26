@@ -1,0 +1,148 @@
+﻿@model Entity.Block
+@{
+    ViewData["Title"] = "Edit Block";
+    var ownerType = ViewBag.OwnerType as string;
+    var ownerId = (int)ViewBag.OwnerId;
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/Block?ownerType=@ownerType&ownerId=@ownerId" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+    <div>
+        <h4 class="mb-0"><i class="bi bi-pencil text-warning me-2"></i>Edit Block #@Model.BlockId</h4>
+        <p class="mb-0 text-muted small">@ViewBag.OwnerName</p>
+    </div>
+</div>
+
+<div class="row g-4">
+    <!-- Left: Block settings -->
+    <div class="col-md-5">
+        <div class="card">
+            <div class="card-header bg-white fw-semibold">Block Settings</div>
+            <div class="card-body p-4">
+                <form asp-action="Edit" asp-route-id="@Model.BlockId" method="post" enctype="multipart/form-data">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" asp-for="OwnerType" />
+                    <input type="hidden" asp-for="OwnerId" />
+                    <div class="mb-3">
+                        <label class="form-label">Block Type</label>
+                        <select asp-for="BlockType" asp-items="ViewBag.BlockTypeList" class="form-select"></select>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="BlockOrder" class="form-label">Display Order</label>
+                        <input asp-for="BlockOrder" type="number" class="form-control" min="1" />
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label">Image</label>
+                        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                        {
+                            <img src="@Model.ImageUrl" class="d-block mb-1 rounded" style="max-height:80px;max-width:100%" />
+                            <span class="badge bg-secondary mb-2">Current</span>
+                        }
+                        <input type="file" name="imageFile" class="form-control" accept="image/*"
+                               onchange="previewImg(this,'imgPrev')" />
+                        <div class="form-text">JPG, PNG, WEBP — max 5MB</div>
+                        <img id="imgPrev" src="#" class="mt-2 rounded d-none" style="max-height:80px;max-width:100%" />
+                        <input type="hidden" asp-for="ImageUrl" />
+                    </div>
+                    <button type="submit" class="btn btn-warning w-100"><i class="bi bi-check-lg me-1"></i>Update</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Right: BlockTrans -->
+    <div class="col-md-7">
+        <div class="card">
+            <div class="card-header bg-white d-flex justify-content-between align-items-center">
+                <span><i class="bi bi-translate text-primary me-2"></i>Content (BlockTrans)</span>
+                <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#addBlockTrans">
+                    <i class="bi bi-plus-lg me-1"></i>Add
+                </button>
+            </div>
+            <div class="card-body p-0">
+                <!-- Add form -->
+                <div class="collapse border-bottom" id="addBlockTrans">
+                    <div class="p-4 bg-light">
+                        <form asp-action="AddTrans" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="BlockId" value="@Model.BlockId" />
+                            <div class="row g-2">
+                                <div class="col-4">
+                                    <label class="form-label small">Language</label>
+                                    <select name="LangCode" class="form-select form-select-sm">
+                                        <option value="vi">🇻🇳 Vietnamese</option>
+                                        <option value="en">🇺🇸 English</option>
+                                        <option value="zh">🇨🇳 Chinese</option>
+                                        <option value="ja">🇯🇵 Japanese</option>
+                                    </select>
+                                </div>
+                                <div class="col-8">
+                                    <label class="form-label small">Title</label>
+                                    <input name="Title" class="form-control form-control-sm" placeholder="Tiêu đề block..." />
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label small">
+                                        Content
+                                        <span class="text-muted fw-normal">(nội dung đầy đủ, HTML)</span>
+                                    </label>
+                                    <textarea name="Content" class="form-control form-control-sm" rows="4"
+                                              placeholder="<p>Nội dung đầy đủ...</p>"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-success btn-sm">
+                                        <i class="bi bi-check-lg me-1"></i>Save Content
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                @if (Model.BlockTrans == null || !Model.BlockTrans.Any())
+                {
+                    <div class="empty-state py-5"><i class="bi bi-translate"></i>No content yet</div>
+                }
+
+                @foreach (var t in Model.BlockTrans ?? new List<Entity.BlockTrans>())
+                {
+                    <div class="p-3 border-bottom">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <span class="lang-badge">@t.LangCode.ToUpper()</span>
+                            <form asp-action="DeleteTrans" method="post">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="transId" value="@t.BlockTransId" />
+                                <input type="hidden" name="blockId" value="@Model.BlockId" />
+                                <button type="submit" class="btn btn-icon btn-outline-danger btn-sm"
+                                        onclick="return confirm('Delete this content?')">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </form>
+                        </div>
+                        @if (!string.IsNullOrEmpty(t.Title))
+                        {
+                            <p class="fw-semibold mb-1">@t.Title</p>
+                        }
+
+                        @if (!string.IsNullOrEmpty(t.Content))
+                        {
+                            <div class="border rounded p-2 bg-light mt-1" style="font-size:.8rem;max-height:70px;overflow:hidden;color:#64748b">
+                                @Html.Raw(t.Content?.Length > 150 ? t.Content.Substring(0, 150) + "…" : t.Content)
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function previewImg(input, previewId) {
+        const img = document.getElementById(previewId);
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = e => { img.src = e.target.result; img.classList.remove('d-none'); };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

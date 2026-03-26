@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YAoqkaK5EG8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gaixing36\\Downloads\\Backend-ICT-main\\Backend-ICT-main\\Entity\\Entity.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gaixing36\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

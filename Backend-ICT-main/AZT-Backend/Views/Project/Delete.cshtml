@@ -1,0 +1,27 @@
+﻿@model Entity.Project
+@{
+    ViewData["Title"] = "Delete Project";
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/Project" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+    <h4 class="mb-0 text-danger"><i class="bi bi-trash me-2"></i>Delete Project</h4>
+</div>
+<div class="card border-danger" style="max-width:480px">
+    <div class="card-header bg-danger text-white"><i class="bi bi-exclamation-triangle me-2"></i>Confirm Deletion</div>
+    <div class="card-body p-4">
+        @{
+            var name = Model.ProjectTrans?.FirstOrDefault(t => t.LangCode == "en")?.Name ?? Model.ProjectTrans?.FirstOrDefault()?.Name ?? "—";
+        }
+        <div class="bg-light rounded p-3 mb-3">
+            <p class="fw-bold mb-0">@name</p>
+        </div>
+        <div class="alert alert-warning py-2 small mb-4">
+            <i class="bi bi-exclamation-triangle me-1"></i>All translations and features will also be deleted. This action cannot be undone!
+        </div>
+        <form asp-action="Delete" asp-route-id="@Model.ProjectId" method="post" class="d-flex gap-2">
+            <button type="submit" class="btn btn-danger"><i class="bi bi-trash me-1"></i>Confirm Delete</button>
+            <a href="/Project" class="btn btn-outline-secondary">Cancel</a>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,167 @@
+﻿@model IEnumerable<Entity.Contact>
+@{
+    ViewData["Title"] = "Contacts";
+}
+
+<div class="page-header d-flex justify-content-between align-items-center">
+    <div>
+        <h4><i class="bi bi-envelope text-danger me-2"></i>Contacts</h4>
+        <p>Messages received from customers</p>
+    </div>
+    <span id="resultCount" class="text-muted small"></span>
+</div>
+
+<!-- Filters -->
+<div class="card mb-3">
+    <div class="card-body py-2 px-3">
+        <div class="d-flex gap-2 align-items-center flex-wrap">
+            <div class="input-group" style="max-width:300px">
+                <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+                <input type="text" id="searchInput" class="form-control border-start-0" placeholder="Search name, email, phone..." oninput="applyFilters()" />
+            </div>
+            <select id="pageSizeSelect" class="form-select" style="width:120px" onchange="applyFilters()">
+                <option value="10">10 / page</option>
+                <option value="15">15 / page</option>
+                <option value="20">20 / page</option>
+                <option value="25">25 / page</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="table-responsive">
+        <table class="table table-hover mb-0">
+            <thead>
+                <tr>
+                    <th class="sortable" data-col="0">Name <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable" data-col="1">Email <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable" data-col="2">Phone <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable" data-col="3">Date <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                @if (!Model.Any())
+                {
+                    <tr><td colspan="5"><div class="empty-state"><i class="bi bi-inbox"></i>No contacts yet</div></td></tr>
+                }
+                @foreach (var c in Model)
+                {
+                    <tr data-name="@c.Name.ToLower()"
+                        data-email="@c.Email.ToLower()"
+                        data-phone="@((c.Phone ?? "").ToLower())"
+                        data-created="@c.CreatedAt.ToString("yyyy-MM-dd HH:mm")">
+                        <td class="fw-semibold">@c.Name</td>
+                        <td><a href="mailto:@c.Email">@c.Email</a></td>
+                        <td class="text-muted">@(c.Phone ?? "—")</td>
+                        <td class="text-muted small">@c.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>
+                            <a href="/Contact/Details/@c.ContactId" class="btn btn-icon btn-outline-primary btn-sm me-1">
+                                <i class="bi bi-eye"></i>
+                            </a>
+                            <form asp-action="Delete" asp-controller="Contact" method="post" style="display:inline">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@c.ContactId" />
+                                <button type="submit" class="btn btn-icon btn-outline-danger btn-sm"
+                                        onclick="return confirm('Delete this contact?')">
+                                    <i class="bi bi-trash"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="d-flex justify-content-between align-items-center px-3 py-2 border-top">
+        <span id="pageInfo" class="text-muted small"></span>
+        <ul class="pagination pagination-sm mb-0" id="pagination"></ul>
+    </div>
+</div>
+
+<style>
+    .sortable {
+        cursor: pointer;
+        user-select: none;
+        white-space: nowrap;
+    }
+
+        .sortable:hover {
+            background: #f8f9fa;
+        }
+
+    .sort-asc .bi-chevron-expand::before {
+        content: "\f235";
+    }
+
+    .sort-desc .bi-chevron-expand::before {
+        content: "\f229";
+    }
+</style>
+
+<script>
+    let currentPage = 1, sortCol = -1, sortAsc = true;
+
+    function applyFilters() { currentPage = 1; render(); }
+
+    function getRows() {
+        const q = document.getElementById('searchInput').value.toLowerCase();
+        return [...document.querySelectorAll('#tableBody tr[data-name]')].filter(r =>
+            !q || r.dataset.name.includes(q) || r.dataset.email.includes(q) || r.dataset.phone.includes(q)
+        );
+    }
+
+    function render() {
+        const pageSize = parseInt(document.getElementById('pageSizeSelect').value);
+        let rows = getRows();
+
+        if (sortCol >= 0) {
+            const keys = ['name','email','phone','created'];
+            rows.sort((a, b) => {
+                const av = a.dataset[keys[sortCol]], bv = b.dataset[keys[sortCol]];
+                return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+            });
+        }
+
+        document.querySelectorAll('#tableBody tr[data-name]').forEach(r => r.style.display = 'none');
+        const total = rows.length;
+        const totalPages = Math.max(1, Math.ceil(total / pageSize));
+        currentPage = Math.min(currentPage, totalPages);
+        const start = (currentPage - 1) * pageSize;
+        rows.slice(start, start + pageSize).forEach(r => r.style.display = '');
+
+        document.getElementById('resultCount').textContent = `${total} contact${total !== 1 ? 's' : ''}`;
+        document.getElementById('pageInfo').textContent =
+            total ? `Showing ${start+1}–${Math.min(start+pageSize,total)} of ${total}` : 'No results';
+
+        const ul = document.getElementById('pagination');
+        ul.innerHTML = '';
+        const addBtn = (label, page, disabled, active) => {
+            const li = document.createElement('li');
+            li.className = `page-item${disabled?' disabled':''}${active?' active':''}`;
+            li.innerHTML = `<a class="page-link" href="#">${label}</a>`;
+            if (!disabled && !active) li.onclick = e => { e.preventDefault(); currentPage = page; render(); };
+            ul.appendChild(li);
+        };
+        addBtn('«', 1, currentPage===1);
+        addBtn('‹', currentPage-1, currentPage===1);
+        const from = Math.max(1,currentPage-2), to = Math.min(totalPages,from+4);
+        for (let i = from; i <= to; i++) addBtn(i, i, false, i===currentPage);
+        addBtn('›', currentPage+1, currentPage===totalPages);
+        addBtn('»', totalPages, currentPage===totalPages);
+    }
+
+    document.querySelectorAll('.sortable').forEach(th => {
+        th.onclick = () => {
+            const col = +th.dataset.col;
+            if (sortCol === col) sortAsc = !sortAsc;
+            else { sortCol = col; sortAsc = true; }
+            document.querySelectorAll('.sortable').forEach(t => t.classList.remove('sort-asc','sort-desc'));
+            th.classList.add(sortAsc ? 'sort-asc' : 'sort-desc');
+            render();
+        };
+    });
+
+    render();
+</script>

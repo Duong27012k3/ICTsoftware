@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Entity/Entity.csproj" Id="91953439-6e0d-436b-bf2c-fa330df53a34" />
+  <Project Path="../Infrastructure/Infrastructure.csproj" Id="8dc0f4fa-a462-4ed3-ad38-05a6908153ab" />
+  <Project Path="../UseCase/UseCase.csproj" Id="9408b670-1348-4033-91fc-b8eaa26e7c85" />
+  <Project Path="AZT-Backend.csproj" />
+</Solution>

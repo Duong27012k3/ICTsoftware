@@ -1,0 +1,101 @@
+﻿@model Entity.Project
+@{
+    ViewData["Title"] = "Add Project";
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/Project" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+    <h4 class="mb-0"><i class="bi bi-plus-circle text-warning me-2"></i>Add New Project</h4>
+</div>
+
+<div class="card" style="max-width:680px">
+    <div class="card-header bg-white fw-semibold">Project Information</div>
+    <div class="card-body p-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            @* <div asp-validation-summary="All" class="alert alert-danger py-2 mb-3"></div> *@
+
+            <div class="mb-3">
+                <label class="form-label">Field <span class="text-danger">*</span></label>
+                <select asp-for="FieldId" asp-items="ViewBag.FieldList" class="form-select">
+                    <option value="">— Select a field —</option>
+                </select>
+            </div>
+
+            <!-- IMAGE UPLOAD -->
+            <div class="mb-3">
+                <label class="form-label">Image</label>
+                <input type="file" name="imageFile" class="form-control" accept="image/*" onchange="previewImg(this,'imgPrev')" />
+                <div class="form-text">JPG, PNG, WEBP — tối đa 5MB</div>
+                <img id="imgPrev" src="#" class="mt-2 rounded d-none" style="max-height:100px;max-width:100%" />
+            </div>
+
+            <!-- CATALOGUE UPLOAD -->
+            <div class="mb-3">
+                <label class="form-label">Catalogue (PDF)</label>
+                <input type="file" name="catalogueFile" class="form-control" accept=".pdf" onchange="showFilename(this,'catName')" />
+                <div class="form-text">Chỉ file PDF — tối đa 20MB</div>
+                <div id="catName" class="text-success small mt-1 d-none">
+                    <i class="bi bi-file-earmark-pdf me-1"></i><span></span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-select">
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+            </div>
+
+            <hr class="my-4" />
+            <p class="fw-semibold text-muted small mb-3"><i class="bi bi-translate me-1"></i>Tên & Mô tả</p>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-danger">VI</span>
+                            <span class="small fw-semibold">🇻🇳 Tiếng Việt</span>
+                        </div>
+                        <input name="viName" class="form-control form-control-sm mb-2" placeholder="Tên dự án..." />
+                        <textarea name="viShortDescription" class="form-control form-control-sm" rows="2" placeholder="Mô tả ngắn..."></textarea>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-primary">EN</span>
+                            <span class="small fw-semibold">🇺🇸 English</span>
+                        </div>
+                        <input name="enName" class="form-control form-control-sm mb-2" placeholder="Project name..." />
+                        <textarea name="enShortDescription" class="form-control form-control-sm" rows="2" placeholder="Short description..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex gap-2 mt-4">
+                <button type="submit" class="btn btn-warning px-4"><i class="bi bi-check-lg me-1"></i>Save</button>
+                <a href="/Project" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function previewImg(input, previewId) {
+        const img = document.getElementById(previewId);
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = e => { img.src = e.target.result; img.classList.remove('d-none'); };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    function showFilename(input, divId) {
+        const div = document.getElementById(divId);
+        if (input.files && input.files[0]) {
+            div.querySelector('span').textContent = input.files[0].name;
+            div.classList.remove('d-none');
+        }
+    }
+</script>

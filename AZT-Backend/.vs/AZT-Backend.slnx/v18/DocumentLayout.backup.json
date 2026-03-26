@@ -1,0 +1,1940 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:dotnet-tools.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\blockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\blockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\wwwroot\\uploads\\images\\2bdc9778-3f03-4127-9a81-f051029d0a13.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:wwwroot\\uploads\\images\\2bdc9778-3f03-4127-9a81-f051029d0a13.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\wwwroot\\uploads\\images\\05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:wwwroot\\uploads\\images\\05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\block\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\block\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\blocktrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\block\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\block\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\block\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\block\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Downloads\\files\\BlockTrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\contact\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\field\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\field\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\service\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\project\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\project\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\service\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\service\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\field\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\field\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\contactusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\contactusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\field\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\field\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\project\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\project\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\fieldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\fieldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\field\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\field\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\service\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\service\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\fieldlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\field.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\ifieldrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresfieldrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\fileuploadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\fileuploadhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Downloads\\Field_Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\blocktranslistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\blocklistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iblockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\fields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\controllers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:controllers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\projecttrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresblockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\projectlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\servicetrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\servicelistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\service\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\service\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iservicetransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\servicetranslistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\servicestrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\servicestrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\projectstrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\projectstrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\fieldstrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\fieldstrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\blocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\blocks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\blockstrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\blockstrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\contacts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\project\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\project\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\contact\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Downloads\\MVCProject\\MVCProject\\WebApp\\Models\\Models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresprojecttransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iprojecttransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresservicetransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresfieldtransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresfeaturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgrescontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\postgresblocktransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\userlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\projecttranslistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\ifieldtransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\ifeaturerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\icontactrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\iblocktransrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\fieldtranslistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\featurelistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\contactlistmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9408B670-1348-4033-91FC-B8EAA26E7C85}|..\\UseCase\\UseCase.csproj|c:\\users\\duong\\documents\\csharp\\azt\\usecase\\usecase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\fieldtrans.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91953439-6E0D-436B-BF2C-FA330DF53A34}|..\\Entity\\Entity.csproj|c:\\users\\duong\\documents\\csharp\\azt\\entity\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\models\\features.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:models\\features.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|c:\\users\\duong\\documents\\csharp\\azt\\azt-backend\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8871EAA9-9163-2417-8234-086F0B139D59}|AZT-Backend.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Documents\\C#\\Infrastructure\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Documents\\C#\\Infrastructure\\PostgresContactRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Documents\\C#\\Entity\\Contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Documents\\C#\\UseCase\\ContactListManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Duong\\Documents\\C#\\UseCase\\IContactRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260226033938_addnamecolumntofield4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260226031005_addnamecolumntofield3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260226025530_addnamecolumntofield2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260226021416_addnamecolumntofield1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260226020751_addnamecolumntofield.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260227105208_updateservicemodel8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260227092758_updateservicemodel7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DC0F4FA-A462-4ED3-AD38-05A6908153AB}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\duong\\documents\\csharp\\azt\\infrastructure\\migrations\\20260227040000_updateservicemodel6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 413,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-07T01:59:26.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg - Bitmap [768x512, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\uploads\\images\\05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\uploads\\images\\05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\uploads\\images\\05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg - Bitmap [768x512, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\uploads\\images\\05fa11f4-4224-4b39-9b9e-35d4334bbbfa.jpg - Bitmap [768x512, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-03-03T08:51:42.637Z",
+              "EditorCaption": " - Bitmap [768x512, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:14:08.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlockController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\BlockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BlockController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\BlockController.cs",
+              "RelativeToolTip": "Controllers\\BlockController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:55:21.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAswH4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:44:56.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T16:15:28.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dotnet-tools.json",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\dotnet-tools.json",
+              "RelativeDocumentMoniker": "dotnet-tools.json",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\dotnet-tools.json",
+              "RelativeToolTip": "dotnet-tools.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-25T02:01:43.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-09T14:44:55.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "Controllers\\BaseController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDQAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:53:59.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:40:18.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Service\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Index.cshtml",
+              "RelativeToolTip": "Views\\Service\\Index.cshtml",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAcwLQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:09:31.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Block\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Block\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Block\\Create.cshtml",
+              "RelativeToolTip": "Views\\Block\\Create.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:00:41.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Block\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Block\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Block\\Index.cshtml",
+              "RelativeToolTip": "Views\\Block\\Index.cshtml",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAMwL4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:01:26.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "2bdc9778-3f03-4127-9a81-f051029d0a13.jpg - Bitmap [768x512, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\uploads\\images\\2bdc9778-3f03-4127-9a81-f051029d0a13.jpg",
+              "RelativeDocumentMoniker": "wwwroot\\uploads\\images\\2bdc9778-3f03-4127-9a81-f051029d0a13.jpg",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\uploads\\images\\2bdc9778-3f03-4127-9a81-f051029d0a13.jpg - Bitmap [768x512, 24 bit, JPG]",
+              "RelativeToolTip": "wwwroot\\uploads\\images\\2bdc9778-3f03-4127-9a81-f051029d0a13.jpg - Bitmap [768x512, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-03-03T08:51:55.498Z",
+              "EditorCaption": " - Bitmap [768x512, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Index.cshtml",
+              "RelativeToolTip": "Views\\Project\\Index.cshtml",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAcwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:07:20.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Block\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Block\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Block\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Block\\Edit.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAcwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:01:08.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "Views\\User\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:12:55.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Block.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Block.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Block.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Block.cs",
+              "RelativeToolTip": "..\\Entity\\Block.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T07:35:53.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BlockTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\BlockTrans.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\BlockTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\BlockTrans.cs",
+              "RelativeToolTip": "..\\Entity\\BlockTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T07:46:36.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BlockTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Downloads\\files\\BlockTrans.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\files\\BlockTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Downloads\\files\\BlockTrans.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\files\\BlockTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T08:08:42.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Service\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Service\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:09:09.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Project\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:07:02.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Contact\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Contact\\Index.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Index.cshtml",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAcwKcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:02:48.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Field\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Field\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:05:13.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Field\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Index.cshtml",
+              "RelativeToolTip": "Views\\Field\\Index.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:05:39.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Field\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Create.cshtml",
+              "RelativeToolTip": "Views\\Field\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwDQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:04:10.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ContactUserController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\ContactUserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactUserController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\ContactUserController.cs",
+              "RelativeToolTip": "Controllers\\ContactUserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:55:44.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Create.cshtml",
+              "RelativeToolTip": "Views\\Project\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:06:14.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:54:51.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Project.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Project.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Project.cs",
+              "RelativeToolTip": "..\\Entity\\Project.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:54:10.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "20260227105208_UpdateServiceModel8.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260227105208_UpdateServiceModel8.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260227105208_UpdateServiceModel8.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260227105208_UpdateServiceModel8.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260227105208_UpdateServiceModel8.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T10:52:09.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "..\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-24T02:17:10.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Service.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Service.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Service.cs",
+              "RelativeToolTip": "..\\Entity\\Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:53:18.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FieldController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\FieldController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FieldController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\FieldController.cs",
+              "RelativeToolTip": "Controllers\\FieldController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:54:38.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Controllers\\ProjectController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAMwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:55:05.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Field\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Field\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Field\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:04:39.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Service\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Create.cshtml",
+              "RelativeToolTip": "Views\\Service\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:07:56.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20260227092758_UpdateServiceModel7.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260227092758_UpdateServiceModel7.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260227092758_UpdateServiceModel7.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260227092758_UpdateServiceModel7.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260227092758_UpdateServiceModel7.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T09:27:59.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IFieldRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IFieldRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IFieldRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IFieldRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IFieldRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:54:04.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FieldListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\FieldListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\FieldListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\FieldListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\FieldListManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwDEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:51:42.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "PostgresFieldRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresFieldRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresFieldRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresFieldRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresFieldRepository.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAcwDIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:39:31.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "20260227040000_UpdateServiceModel6.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260227040000_UpdateServiceModel6.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260227040000_UpdateServiceModel6.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260227040000_UpdateServiceModel6.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260227040000_UpdateServiceModel6.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T04:00:00.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Field.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Field.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Field.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Field.cs",
+              "RelativeToolTip": "..\\Entity\\Field.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:51:09.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Feature.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Feature.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Feature.cs",
+              "RelativeToolTip": "..\\Entity\\Feature.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:55:26.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FileUploadHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\FileUploadHelper.cs",
+              "RelativeDocumentMoniker": "Controllers\\FileUploadHelper.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\FileUploadHelper.cs",
+              "RelativeToolTip": "Controllers\\FileUploadHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T18:31:16.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "BlockTransListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\BlockTransListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\BlockTransListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\BlockTransListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\BlockTransListManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:48:33.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "BlockListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\BlockListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\BlockListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\BlockListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\BlockListManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwBUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:48:00.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Field_Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Downloads\\Field_Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Field_Edit.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Downloads\\Field_Edit.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Field_Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-27T02:18:39.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "IBlockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IBlockRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IBlockRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IBlockRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IBlockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:47:44.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:54:22.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Fields.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Fields.cs",
+              "RelativeDocumentMoniker": "Models\\Fields.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Fields.cs",
+              "RelativeToolTip": "Models\\Fields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:23:31.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-26T17:52:52.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\favicon.ico",
+              "RelativeDocumentMoniker": "wwwroot\\favicon.ico",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "RelativeToolTip": "wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2026-02-26T17:52:37.16Z",
+              "EditorCaption": " - Icon [32x32, 32 bit, BMP]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\JwtService.cs",
+              "RelativeDocumentMoniker": "Controllers\\JwtService.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Controllers\\JwtService.cs",
+              "RelativeToolTip": "Controllers\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T01:53:44.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ProjectTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\ProjectTrans.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\ProjectTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\ProjectTrans.cs",
+              "RelativeToolTip": "..\\Entity\\ProjectTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:54:40.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "PostgresProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresProjectRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresProjectRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:40:56.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "PostgresServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresServiceRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresServiceRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresServiceRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresServiceRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:40:13.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PostgresBlockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresBlockRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresBlockRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresBlockRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresBlockRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:41:50.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ServiceTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\ServiceTrans.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\ServiceTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\ServiceTrans.cs",
+              "RelativeToolTip": "..\\Entity\\ServiceTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:53:46.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProjectListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ProjectListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\ProjectListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ProjectListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\ProjectListManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwDQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:45:26.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "20260226033938_AddNameColumnToField4.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226033938_AddNameColumnToField4.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260226033938_AddNameColumnToField4.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226033938_AddNameColumnToField4.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260226033938_AddNameColumnToField4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T03:39:38.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IServiceTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IServiceTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IServiceTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IServiceTransRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IServiceTransRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:44:27.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Service\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Service\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Service\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:08:23.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "20260226031005_AddNameColumnToField3.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226031005_AddNameColumnToField3.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260226031005_AddNameColumnToField3.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226031005_AddNameColumnToField3.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260226031005_AddNameColumnToField3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T03:10:05.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IServiceRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IServiceRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IServiceRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IServiceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T10:03:20.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ServiceListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ServiceListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\ServiceListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ServiceListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\ServiceListManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:59:50.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "20260226025530_AddNameColumnToField2.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226025530_AddNameColumnToField2.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260226025530_AddNameColumnToField2.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226025530_AddNameColumnToField2.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260226025530_AddNameColumnToField2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T02:55:31.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "20260226021416_AddNameColumnToField1.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226021416_AddNameColumnToField1.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260226021416_AddNameColumnToField1.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226021416_AddNameColumnToField1.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260226021416_AddNameColumnToField1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T02:14:17.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "20260226020751_AddNameColumnToField.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226020751_AddNameColumnToField.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20260226020751_AddNameColumnToField.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\Migrations\\20260226020751_AddNameColumnToField.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20260226020751_AddNameColumnToField.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T02:07:51.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADEBAAAAAAAAAAAswEABAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T09:20:57.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T02:59:55.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ServiceTransListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ServiceTransListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\ServiceTransListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ServiceTransListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\ServiceTransListManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAiwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:44:40.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T16:05:50.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:44:54.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:26:07.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "ServicesTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\ServicesTrans.cs",
+              "RelativeDocumentMoniker": "Models\\ServicesTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\ServicesTrans.cs",
+              "RelativeToolTip": "Models\\ServicesTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:24:59.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Services.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Services.cs",
+              "RelativeDocumentMoniker": "Models\\Services.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Services.cs",
+              "RelativeToolTip": "Models\\Services.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:24:22.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "ProjectsTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\ProjectsTrans.cs",
+              "RelativeDocumentMoniker": "Models\\ProjectsTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\ProjectsTrans.cs",
+              "RelativeToolTip": "Models\\ProjectsTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:25:47.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Projects.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Projects.cs",
+              "RelativeDocumentMoniker": "Models\\Projects.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Projects.cs",
+              "RelativeToolTip": "Models\\Projects.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:25:23.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "FieldsTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\FieldsTrans.cs",
+              "RelativeDocumentMoniker": "Models\\FieldsTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\FieldsTrans.cs",
+              "RelativeToolTip": "Models\\FieldsTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:24:00.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Blocks.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Blocks.cs",
+              "RelativeDocumentMoniker": "Models\\Blocks.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Blocks.cs",
+              "RelativeToolTip": "Models\\Blocks.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:22:05.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "BlocksTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\BlocksTrans.cs",
+              "RelativeDocumentMoniker": "Models\\BlocksTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\BlocksTrans.cs",
+              "RelativeToolTip": "Models\\BlocksTrans.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:22:28.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Contacts.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Contacts.cs",
+              "RelativeDocumentMoniker": "Models\\Contacts.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Contacts.cs",
+              "RelativeToolTip": "Models\\Contacts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T01:46:36.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T01:37:36.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T01:37:42.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:13:47.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:13:16.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Project\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Project\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Project\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:06:36.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswGcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T01:38:04.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Contact\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Contact\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Contact\\Details.cshtml",
+              "RelativeToolTip": "Views\\Contact\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-25T03:02:04.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAcwHIBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-25T03:10:27.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\User.cs",
+              "RelativeToolTip": "..\\Entity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T02:17:02.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Downloads\\MVCProject\\MVCProject\\WebApp\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\MVCProject\\MVCProject\\WebApp\\Models\\Models.cs",
+              "ToolTip": "C:\\Users\\Duong\\Downloads\\MVCProject\\MVCProject\\WebApp\\Models\\Models.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\MVCProject\\MVCProject\\WebApp\\Models\\Models.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-25T03:51:47.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "GlobalUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\GlobalUsings.cs",
+              "RelativeDocumentMoniker": "GlobalUsings.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\GlobalUsings.cs",
+              "RelativeToolTip": "GlobalUsings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T02:02:40.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T09:46:15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "PostgresServiceTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresServiceTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresServiceTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresServiceTransRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresServiceTransRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:40:36.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "IProjectTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IProjectTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IProjectTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IProjectTransRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IProjectTransRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:45:44.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "PostgresProjectTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresProjectTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresProjectTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresProjectTransRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresProjectTransRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:41:15.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "PostgresUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresUserRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresUserRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:39:17.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "PostgresFieldTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresFieldTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresFieldTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresFieldTransRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresFieldTransRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:39:50.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "PostgresFeatureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresFeatureRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresFeatureRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresFeatureRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresFeatureRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:41:30.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "PostgresContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresContactRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresContactRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresContactRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresContactRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T16:15:34.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "PostgresBlockTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresBlockTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\PostgresBlockTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Infrastructure\\PostgresBlockTransRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\PostgresBlockTransRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T17:42:05.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "UserListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\UserListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\UserListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\UserListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\UserListManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:41:46.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IUserRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:40:36.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "ProjectTransListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ProjectTransListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\ProjectTransListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ProjectTransListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\ProjectTransListManager.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:46:29.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IProjectRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IProjectRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:44:59.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "IFieldTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IFieldTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IFieldTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IFieldTransRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IFieldTransRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:59:23.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "IFeatureRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IFeatureRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IFeatureRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IFeatureRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IFeatureRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:46:54.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IContactRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:08:58.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "IBlockTransRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IBlockTransRepository.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\IBlockTransRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\IBlockTransRepository.cs",
+              "RelativeToolTip": "..\\UseCase\\IBlockTransRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:48:13.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "FieldTransListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\FieldTransListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\FieldTransListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\FieldTransListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\FieldTransListManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:57:57.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "FeatureListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\FeatureListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\FeatureListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\FeatureListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\FeatureListManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T14:47:10.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "ContactListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ContactListManager.cs",
+              "RelativeDocumentMoniker": "..\\UseCase\\ContactListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\ContactListManager.cs",
+              "RelativeToolTip": "..\\UseCase\\ContactListManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T09:09:01.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "UseCase.csproj",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\UseCase.csproj",
+              "RelativeDocumentMoniker": "..\\UseCase\\UseCase.csproj",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\UseCase\\UseCase.csproj",
+              "RelativeToolTip": "..\\UseCase\\UseCase.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-23T07:42:46.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "FieldTrans.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\FieldTrans.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\FieldTrans.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\FieldTrans.cs",
+              "RelativeToolTip": "..\\Entity\\FieldTrans.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAASwBoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T03:52:38.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Contact.cs",
+              "RelativeDocumentMoniker": "..\\Entity\\Contact.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\Entity\\Contact.cs",
+              "RelativeToolTip": "..\\Entity\\Contact.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T02:17:09.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Features.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Features.cs",
+              "RelativeDocumentMoniker": "Models\\Features.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Models\\Features.cs",
+              "RelativeToolTip": "Models\\Features.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-24T04:23:07.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\C#\\Entity\\Contact.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\C#\\Entity\\Contact.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\C#\\Entity\\Contact.cs",
+              "RelativeToolTip": "..\\..\\..\\C#\\Entity\\Contact.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:39:06.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "PostgresContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\C#\\Infrastructure\\PostgresContactRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\C#\\Infrastructure\\PostgresContactRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\C#\\Infrastructure\\PostgresContactRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\C#\\Infrastructure\\PostgresContactRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:05:34.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\Csharp\\AZT\\AZT-Backend\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-10T09:21:02.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "ContactListManager.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\C#\\UseCase\\ContactListManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\C#\\UseCase\\ContactListManager.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\C#\\UseCase\\ContactListManager.cs",
+              "RelativeToolTip": "..\\..\\..\\C#\\UseCase\\ContactListManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:58:37.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "IContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\C#\\UseCase\\IContactRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\C#\\UseCase\\IContactRepository.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\C#\\UseCase\\IContactRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\C#\\UseCase\\IContactRepository.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T14:52:21.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Duong\\Documents\\C#\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\C#\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Duong\\Documents\\C#\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\C#\\Infrastructure\\AppDbContext.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:03:24.534Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

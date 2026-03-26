@@ -1,0 +1,174 @@
+﻿@model IEnumerable<Entity.Field>
+@{
+    ViewData["Title"] = "Fields";
+}
+
+<div class="page-header d-flex justify-content-between align-items-center">
+    <div>
+        <h4><i class="bi bi-grid-3x3-gap text-primary me-2"></i>Fields</h4>
+        <p>Manage your main fields</p>
+    </div>
+    <a href="/Field/Create" class="btn btn-primary"><i class="bi bi-plus-lg me-1"></i>Add Field</a>
+</div>
+
+<!-- Search + Page size -->
+<div class="card mb-3">
+    <div class="card-body py-2 px-3">
+        <div class="d-flex gap-2 align-items-center flex-wrap">
+            <div class="input-group" style="max-width:300px">
+                <span class="input-group-text bg-white border-end-0"><i class="bi bi-search text-muted"></i></span>
+                <input type="text" id="searchInput" class="form-control border-start-0" placeholder="Search field name or slug..." oninput="applyFilters()" />
+            </div>
+            <select id="statusFilter" class="form-select" style="width:140px" onchange="applyFilters()">
+                <option value="">All Status</option>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+            </select>
+            <select id="pageSizeSelect" class="form-select" style="width:120px" onchange="applyFilters()">
+                <option value="10">10 / page</option>
+                <option value="15">15 / page</option>
+                <option value="20">20 / page</option>
+                <option value="25">25 / page</option>
+            </select>
+            <span id="resultCount" class="text-muted small ms-auto"></span>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="table-responsive">
+        <table class="table table-hover mb-0" id="mainTable">
+            <thead>
+                <tr>
+                    <th class="sortable" data-col="0">Field Name <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable text-center" data-col="1">Services <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable text-center" data-col="2">Projects <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable" data-col="3">Status <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th class="sortable" data-col="4">Created <i class="bi bi-chevron-expand text-muted small"></i></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                @foreach (var f in Model)
+                {
+                    var enName = f.FieldTrans?.FirstOrDefault(t => t.LangCode == "en")?.Name
+                    ?? f.FieldTrans?.FirstOrDefault()?.Name ?? "—";
+                    <tr data-name="@enName.ToLower()" data-uid="@f.Uid.ToLower()" data-status="@f.Status"
+                        data-services="@(f.Services?.Count ?? 0)" data-projects="@(f.Projects?.Count ?? 0)"
+                        data-created="@f.CreatedAt.ToString("yyyy-MM-dd")">
+                        <td>
+                            <p class="fw-semibold mb-0">@enName</p>
+                            <code class="bg-light px-2 py-1 rounded small text-muted">@f.Uid</code>
+                        </td>
+                        <td class="text-center"><span class="badge bg-primary-subtle text-primary rounded-pill px-3">@(f.Services?.Count ?? 0)</span></td>
+                        <td class="text-center"><span class="badge bg-warning-subtle text-warning rounded-pill px-3">@(f.Projects?.Count ?? 0)</span></td>
+                        <td><span class="@(f.Status == "active" ? "badge-active" : "badge-inactive")">@f.Status</span></td>
+                        <td class="text-muted small">@f.CreatedAt.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <a href="/Field/Edit/@f.FieldId" class="btn btn-icon btn-outline-primary btn-sm me-1"><i class="bi bi-pencil"></i></a>
+                            <a href="/Field/Delete/@f.FieldId" class="btn btn-icon btn-outline-danger  btn-sm"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- Pagination -->
+    <div class="d-flex justify-content-between align-items-center px-3 py-2 border-top" id="paginationBar">
+        <span id="pageInfo" class="text-muted small"></span>
+        <ul class="pagination pagination-sm mb-0" id="pagination"></ul>
+    </div>
+</div>
+
+<style>
+    .sortable { cursor:pointer; user-select:none; white-space:nowrap; }
+    .sortable:hover { background:#f8f9fa; }
+    .sort-asc .bi-chevron-expand::before  { content:"\f235"; }
+    .sort-desc .bi-chevron-expand::before { content:"\f229"; }
+</style>
+
+<script>
+    let currentPage = 1, sortCol = -1, sortAsc = true;
+
+    function applyFilters() {
+        currentPage = 1;
+        render();
+    }
+
+    function getRows() {
+        const q      = document.getElementById('searchInput').value.toLowerCase();
+        const status = document.getElementById('statusFilter').value;
+        return [...document.querySelectorAll('#tableBody tr')].filter(r => {
+            const matchQ = !q || r.dataset.name.includes(q) || r.dataset.uid.includes(q);
+            const matchS = !status || r.dataset.status === status;
+            return matchQ && matchS;
+        });
+    }
+
+    function render() {
+        const pageSize = parseInt(document.getElementById('pageSizeSelect').value);
+        let rows = getRows();
+
+        // Sort
+        if (sortCol >= 0) {
+            rows.sort((a, b) => {
+                const vals = [
+                    [a.dataset.name,     b.dataset.name],
+                    [a.dataset.services, b.dataset.services],
+                    [a.dataset.projects, b.dataset.projects],
+                    [a.dataset.status,   b.dataset.status],
+                    [a.dataset.created,  b.dataset.created],
+                ][sortCol];
+                const av = isNaN(vals[0]) ? vals[0] : +vals[0];
+                const bv = isNaN(vals[1]) ? vals[1] : +vals[1];
+                return sortAsc ? (av > bv ? 1 : av < bv ? -1 : 0)
+                               : (av < bv ? 1 : av > bv ? -1 : 0);
+            });
+        }
+
+        // Hide all, show page
+        const allRows = [...document.querySelectorAll('#tableBody tr')];
+        allRows.forEach(r => r.style.display = 'none');
+
+        const total = rows.length;
+        const totalPages = Math.max(1, Math.ceil(total / pageSize));
+        currentPage = Math.min(currentPage, totalPages);
+        const start = (currentPage - 1) * pageSize;
+        rows.slice(start, start + pageSize).forEach(r => r.style.display = '');
+
+        document.getElementById('resultCount').textContent = `${total} result${total !== 1 ? 's' : ''}`;
+        document.getElementById('pageInfo').textContent =
+            total ? `Showing ${start + 1}–${Math.min(start + pageSize, total)} of ${total}` : 'No results';
+
+        // Pagination buttons
+        const ul = document.getElementById('pagination');
+        ul.innerHTML = '';
+        const addBtn = (label, page, disabled, active) => {
+            const li = document.createElement('li');
+            li.className = `page-item${disabled ? ' disabled' : ''}${active ? ' active' : ''}`;
+            li.innerHTML = `<a class="page-link" href="#">${label}</a>`;
+            if (!disabled && !active) li.onclick = e => { e.preventDefault(); currentPage = page; render(); };
+            ul.appendChild(li);
+        };
+        addBtn('«', 1, currentPage === 1);
+        addBtn('‹', currentPage - 1, currentPage === 1);
+        const from = Math.max(1, currentPage - 2), to = Math.min(totalPages, from + 4);
+        for (let i = from; i <= to; i++) addBtn(i, i, false, i === currentPage);
+        addBtn('›', currentPage + 1, currentPage === totalPages);
+        addBtn('»', totalPages, currentPage === totalPages);
+    }
+
+    // Sort on header click
+    document.querySelectorAll('.sortable').forEach(th => {
+        th.onclick = () => {
+            const col = +th.dataset.col;
+            if (sortCol === col) sortAsc = !sortAsc;
+            else { sortCol = col; sortAsc = true; }
+            document.querySelectorAll('.sortable').forEach(t => t.classList.remove('sort-asc','sort-desc'));
+            th.classList.add(sortAsc ? 'sort-asc' : 'sort-desc');
+            render();
+        };
+    });
+
+    render();
+</script>

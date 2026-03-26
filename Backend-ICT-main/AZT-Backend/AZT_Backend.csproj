@@ -1,0 +1,31 @@
+<!--
+Pseudocode plan (step-by-step, detailed):
+1. Problem: Compiler cannot find 'Microsoft.AspNetCore.Authentication.JwtBearer' and 'Microsoft.IdentityModel.Tokens' namespaces,
+   so the extension method 'AddJwtBearer' is not available. This indicates missing assembly/nuget references.
+2. Goal: Ensure the project references the assemblies that define the JwtBearer extension and the IdentityModel token types.
+3. Steps to fix:
+   - Add a PackageReference for 'Microsoft.AspNetCore.Authentication.JwtBearer' so the JwtBearer extension and related types are available.
+   - Add a PackageReference for 'System.IdentityModel.Tokens.Jwt' (provides Microsoft.IdentityModel.Tokens types) if not already present.
+   - Keep target framework set to net10.0 (matches your project).
+   - After updating the project file, run a package restore (dotnet restore) and rebuild.
+4. Verification:
+   - Rebuild the project. The using directives in Program.cs:
+       using Microsoft.AspNetCore.Authentication.JwtBearer;
+       using Microsoft.IdentityModel.Tokens;
+     should now resolve and the call to `.AddJwtBearer(...)` will compile.
+-->
+
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Provides AddJwtBearer extension and ASP.NET Core JwtBearer authentication -->
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <!-- Provides Microsoft.IdentityModel.Tokens and token handling types -->
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.0" />
+  </ItemGroup>
+</Project>

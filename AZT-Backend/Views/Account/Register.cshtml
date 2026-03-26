@@ -1,0 +1,263 @@
+﻿@{
+    Layout = null; ViewData["Title"] = "Register";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Register — Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background: linear-gradient(135deg,#0f172a 0%,#1e3a5f 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .register-card {
+            width: 100%;
+            max-width: 440px;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 32px 80px rgba(0,0,0,.4);
+        }
+
+        .register-top {
+            background: linear-gradient(135deg,#059669,#0d9488);
+            padding: 36px 40px;
+            text-align: center;
+        }
+
+        .register-body {
+            background: #fff;
+            padding: 36px 40px;
+        }
+
+        .form-control {
+            border-radius: 10px;
+            border: 1.5px solid #e2e8f0;
+            padding: 10px 14px;
+            font-size: .9rem;
+        }
+
+            .form-control:focus {
+                border-color: #059669;
+                box-shadow: 0 0 0 3px rgba(5,150,105,.12);
+            }
+
+        .form-label {
+            font-weight: 600;
+            font-size: .875rem;
+            color: #374151;
+            margin-bottom: 5px;
+        }
+
+        .btn-register {
+            background: linear-gradient(135deg,#059669,#0d9488);
+            border: none;
+            padding: 12px;
+            font-weight: 700;
+            border-radius: 10px;
+            font-size: 1rem;
+        }
+
+            .btn-register:hover {
+                opacity: .92;
+            }
+
+        .role-badge {
+            background: #dcfce7;
+            color: #15803d;
+            border-radius: 8px;
+            padding: 8px 16px;
+            font-size: .85rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .password-strength {
+            height: 4px;
+            border-radius: 2px;
+            transition: all .3s;
+        }
+
+        .divider {
+            text-align: center;
+            color: #94a3b8;
+            font-size: .85rem;
+            position: relative;
+            margin: 20px 0;
+        }
+
+            .divider::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 0;
+                right: 0;
+                height: 1px;
+                background: #e2e8f0;
+            }
+
+            .divider span {
+                background: #fff;
+                padding: 0 12px;
+                position: relative;
+            }
+    </style>
+</head>
+<body>
+    <div class="register-card">
+        <!-- Top Banner -->
+        <div class="register-top text-white">
+            <div style="width:64px;height:64px;background:rgba(255,255,255,.2);border-radius:16px;display:flex;align-items:center;justify-content:center;margin:0 auto 16px">
+                <i class="bi bi-person-plus-fill" style="font-size:1.8rem"></i>
+            </div>
+            <h4 class="fw-bold mb-1">Create Account</h4>
+            <p class="mb-0 opacity-75">Join the system today</p>
+        </div>
+
+        <!-- Form Body -->
+        <div class="register-body">
+            @if (ViewBag.Error != null)
+            {
+                <div class="alert alert-danger py-2 mb-3 d-flex align-items-center gap-2">
+                    <i class="bi bi-exclamation-circle-fill"></i>
+                    <span>@ViewBag.Error</span>
+                </div>
+            }
+
+            <!-- Role info badge -->
+            <div class="text-center mb-4">
+                <span class="role-badge">
+                    <i class="bi bi-shield-check"></i>
+                    Your account will be registered as: <strong>User</strong>
+                </span>
+            </div>
+
+            <form method="post" asp-action="Register" asp-controller="Account" id="registerForm">
+                <!-- Username -->
+                <div class="mb-3">
+                    <label class="form-label">Username <span class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light border-end-0"><i class="bi bi-person text-muted"></i></span>
+                        <input name="username" id="username" class="form-control border-start-0"
+                               placeholder="Choose a username" required minlength="3" maxlength="50"
+                               style="border-left:none" />
+                    </div>
+                    <div class="form-text">Min 3 characters, letters and numbers only</div>
+                </div>
+
+                <!-- Password -->
+                <div class="mb-2">
+                    <label class="form-label">Password <span class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light border-end-0"><i class="bi bi-lock text-muted"></i></span>
+                        <input name="password" id="password" type="password" class="form-control border-start-0"
+                               placeholder="Min 6 characters" required minlength="6"
+                               oninput="checkStrength(this.value)"
+                               style="border-left:none;border-right:none" />
+                        <button type="button" class="input-group-text bg-light" onclick="togglePwd('password','eyePwd')">
+                            <i class="bi bi-eye text-muted" id="eyePwd"></i>
+                        </button>
+                    </div>
+                </div>
+                <!-- Password strength bar -->
+                <div class="mb-3">
+                    <div class="password-strength bg-secondary opacity-25" id="strengthBar" style="width:0%"></div>
+                    <small id="strengthText" class="text-muted"></small>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="mb-4">
+                    <label class="form-label">Confirm Password <span class="text-danger">*</span></label>
+                    <div class="input-group">
+                        <span class="input-group-text bg-light border-end-0"><i class="bi bi-lock-fill text-muted"></i></span>
+                        <input name="confirmPassword" id="confirmPassword" type="password"
+                               class="form-control border-start-0"
+                               placeholder="Re-enter your password" required
+                               oninput="checkMatch()"
+                               style="border-left:none;border-right:none" />
+                        <button type="button" class="input-group-text bg-light" onclick="togglePwd('confirmPassword','eyeConfirm')">
+                            <i class="bi bi-eye text-muted" id="eyeConfirm"></i>
+                        </button>
+                    </div>
+                    <small id="matchText" class="mt-1 d-block"></small>
+                </div>
+
+                <button type="submit" class="btn btn-register text-white w-100" id="submitBtn">
+                    <i class="bi bi-person-check me-2"></i>Create Account
+                </button>
+            </form>
+
+            <div class="divider"><span>Already have an account?</span></div>
+
+            <a href="/Account/Login" class="btn btn-outline-secondary w-100">
+                <i class="bi bi-box-arrow-in-right me-2"></i>Sign In
+            </a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function togglePwd(inputId, iconId) {
+            const input = document.getElementById(inputId);
+            const icon  = document.getElementById(iconId);
+            if (input.type === 'password') {
+                input.type = 'text';
+                icon.classList.replace('bi-eye','bi-eye-slash');
+            } else {
+                input.type = 'password';
+                icon.classList.replace('bi-eye-slash','bi-eye');
+            }
+        }
+
+        function checkStrength(val) {
+            const bar  = document.getElementById('strengthBar');
+            const text = document.getElementById('strengthText');
+            let score = 0;
+            if (val.length >= 6)  score++;
+            if (val.length >= 10) score++;
+            if (/[A-Z]/.test(val)) score++;
+            if (/[0-9]/.test(val)) score++;
+            if (/[^A-Za-z0-9]/.test(val)) score++;
+
+            const levels = [
+                { w:'0%',   color:'',          label:'' },
+                { w:'25%',  color:'#ef4444',   label:'Weak' },
+                { w:'50%',  color:'#f97316',   label:'Fair' },
+                { w:'75%',  color:'#eab308',   label:'Good' },
+                { w:'100%', color:'#22c55e',   label:'Strong' },
+                { w:'100%', color:'#16a34a',   label:'Very Strong' },
+            ];
+            const lv = levels[Math.min(score, 5)];
+            bar.style.width = lv.w;
+            bar.style.background = lv.color;
+            bar.style.opacity = val ? '1' : '0.25';
+            text.textContent = lv.label;
+            text.style.color = lv.color;
+        }
+
+        function checkMatch() {
+            const pwd     = document.getElementById('password').value;
+            const confirm = document.getElementById('confirmPassword').value;
+            const text    = document.getElementById('matchText');
+            const btn     = document.getElementById('submitBtn');
+            if (!confirm) { text.textContent = ''; return; }
+            if (pwd === confirm) {
+                text.innerHTML = '<i class="bi bi-check-circle-fill text-success me-1"></i><span class="text-success">Passwords match</span>';
+                btn.disabled = false;
+            } else {
+                text.innerHTML = '<i class="bi bi-x-circle-fill text-danger me-1"></i><span class="text-danger">Passwords do not match</span>';
+                btn.disabled = true;
+            }
+        }
+    </script>
+</body>
+</html>

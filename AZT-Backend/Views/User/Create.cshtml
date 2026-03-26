@@ -1,0 +1,49 @@
+﻿@model Entity.User
+@{
+    ViewData["Title"] = "Add User";
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/User" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+    <h4 class="mb-0"><i class="bi bi-person-plus text-primary me-2"></i>Add New User</h4>
+</div>
+
+<div class="card" style="max-width:520px">
+    <div class="card-header bg-white">Account Information</div>
+    <div class="card-body p-4">
+        <form asp-action="Create" method="post">
+            @* <div asp-validation-summary="All" class="alert alert-danger py-2 mb-3"></div> *@
+            <div class="mb-3">
+                <label asp-for="Username" class="form-label">Username <span class="text-danger">*</span></label>
+                <input asp-for="Username" class="form-control" placeholder="username" />
+                <span asp-validation-for="Username" class="text-danger small"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Password <span class="text-danger">*</span></label>
+                <input name="password" type="password" class="form-control" placeholder="Minimum 6 characters" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Confirm Password <span class="text-danger">*</span></label>
+                <input name="confirmPassword" type="password" class="form-control" required />
+            </div>
+            <div class="mb-3">
+                <label asp-for="Role" class="form-label">Role</label>
+                <select asp-for="Role" class="form-select">
+                    <option value="user">User</option>
+                    <option value="admin">Admin</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-select">
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+            </div>
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary px-4"><i class="bi bi-check-lg me-1"></i>Create Account</button>
+                <a href="/User" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

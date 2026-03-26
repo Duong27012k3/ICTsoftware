@@ -1,0 +1,84 @@
+﻿@model Entity.Field
+@{
+    ViewData["Title"] = "Add Field";
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/Field" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+    <h4 class="mb-0"><i class="bi bi-plus-circle text-primary me-2"></i>Add New Field</h4>
+</div>
+
+<div class="card" style="max-width:640px">
+    <div class="card-header bg-white fw-semibold">Field Information</div>
+    <div class="card-body p-4">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            @Html.AntiForgeryToken()
+            @* <div asp-validation-summary="All" class="alert alert-danger py-2 mb-3"></div> *@
+
+            <!-- UID -->
+            <div class="mb-3">
+                <label asp-for="Uid" class="form-label">Slug/Uid <span class="text-danger">*</span></label>
+                <input asp-for="Uid" class="form-control" placeholder="e.g. information-technology" />
+                <div class="form-text">Lowercase, no accents, use hyphens</div>
+                @*chu thuong , khong dau , dung gach ngang*@
+                <span asp-validation-for="Uid" class="text-danger small"></span>
+            </div>
+
+            <!-- IMAGE UPLOAD -->
+            <div class="mb-3">
+                <label class="form-label">Image</label>
+                <input type="file" name="imageFile" class="form-control" accept="image/*" onchange="previewImg(this,'imgPrev')" />
+                <div class="form-text">JPG, PNG, WEBP — Maximum 5MB</div>
+                <img id="imgPrev" src="#" class="mt-2 rounded d-none" style="max-height:100px;max-width:100%" />
+            </div>
+            @* <hr class="my-4" /> *@
+            <p class="fw-semibold text-muted small mb-3"><i class="bi bi-translate me-1"></i>Name & Description</p>
+
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-danger">VI</span>
+                            <span class="small fw-semibold">🇻🇳 Tiếng Việt</span>
+                        </div>
+                        <input name="viName" class="form-control form-control-sm mb-2" placeholder="Tên lĩnh vực..." />
+                        <textarea name="viDescription" class="form-control form-control-sm" rows="2" placeholder="Mô tả ngắn..."></textarea>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="p-3 border rounded bg-light">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <span class="badge bg-primary">EN</span>
+                            <span class="small fw-semibold">🇺🇸 English</span>
+                        </div>
+                        <input name="enName" class="form-control form-control-sm mb-2" placeholder="Field name..." />
+                        <textarea name="enDescription" class="form-control form-control-sm" rows="2" placeholder="Short description..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <!-- STATUS -->
+            <div class="mb-4">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-select">
+                    <option value="active">Active</option>
+                    <option value="inactive">Inactive</option>
+                </select>
+            </div>
+            <div class="d-flex gap-2 mt-4">
+                <button type="submit" class="btn btn-primary px-4"><i class="bi bi-check-lg me-1"></i>Save</button>
+                <a href="/Field" class="btn btn-outline-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function previewImg(input, previewId) {
+        const img = document.getElementById(previewId);
+        if (input.files && input.files[0]) {
+            const reader = new FileReader();
+            reader.onload = e => { img.src = e.target.result; img.classList.remove('d-none'); };
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+</script>

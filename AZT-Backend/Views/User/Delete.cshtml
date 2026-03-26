@@ -1,0 +1,28 @@
+﻿@model Entity.User
+@{
+    ViewData["Title"] = "Delete User";
+}
+
+<div class="page-header d-flex align-items-center gap-3">
+    <a href="/User" class="btn btn-outline-secondary btn-sm"><i class="bi bi-arrow-left"></i></a>
+    <h4 class="mb-0 text-danger"><i class="bi bi-trash me-2"></i>Delete User</h4>
+</div>
+<div class="card border-danger" style="max-width:440px">
+    <div class="card-header bg-danger text-white"><i class="bi bi-exclamation-triangle me-2"></i>Confirm Deletion</div>
+    <div class="card-body p-4">
+        <div class="bg-light rounded p-3 mb-3 d-flex align-items-center gap-3">
+            <i class="bi bi-person-circle text-muted" style="font-size:2rem"></i>
+            <div>
+                <p class="fw-bold mb-0">@Model.Username</p>
+                <span class="@(Model.Role == "admin" ? "badge-admin" : "badge-user")">@Model.Role</span>
+            </div>
+        </div>
+        <div class="alert alert-warning py-2 small mb-4">
+            <i class="bi bi-exclamation-triangle me-1"></i>This action cannot be undone!
+        </div>
+        <form asp-action="Delete" asp-route-id="@Model.UserId" method="post" class="d-flex gap-2">
+            <button type="submit" class="btn btn-danger"><i class="bi bi-trash me-1"></i>Confirm Delete</button>
+            <a href="/User" class="btn btn-outline-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
